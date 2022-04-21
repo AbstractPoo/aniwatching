@@ -1,0 +1,98 @@
+#anime {
+  display: flex;
+  flex-direction: column;
+  padding-top: 224px;
+  gap: 2rem;
+  width: 80%;
+  max-width: 1200px;
+}
+
+#anime-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#anime-details {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.blue {
+  color: #3292ff;
+}
+
+#details * {
+  text-align: left;
+}
+
+#release-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.label {
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.success {
+  background-color: #45d957;
+}
+
+.neutral {
+  background-color: gray;
+}
+
+#stream-button {
+  padding: 15px 80px;
+  background-color: #3292ff;
+  box-sizing: border-box;
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+#stream-information {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: fit-content;
+  border-radius: 0 0 4px 4px;
+}
+
+#air-information {
+  padding: 20px;
+}
+
+#air-information > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#cover-container > img {
+  border-radius: 4px;
+}
+
+#description-text {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+#description-synopsis {
+  color: rgba(255, 255, 255, 0.7);
+}

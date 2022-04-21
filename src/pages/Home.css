@@ -1,0 +1,49 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  padding-top: 224px;
+  gap: 2rem;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: fit-content;
+}
+
+.info-card > .title {
+  font-size: 1.8rem;
+}
+
+.info-card > .content {
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
+  padding: 25px;
+  height: 470px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+#motd {
+  min-width: 400px;
+  max-width: 600px;
+}
+
+li {
+  text-align: left;
+}
+
+.info-card > .content > h2 {
+  margin: unset;
+}
+
+.pick-container {
+  padding: unset !important;
+}

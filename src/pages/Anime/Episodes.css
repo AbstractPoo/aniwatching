@@ -1,0 +1,4 @@
+#episode-container {
+  display: flex;
+  flex-direction: column;
+}

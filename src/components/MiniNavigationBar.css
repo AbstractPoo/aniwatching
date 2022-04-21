@@ -1,0 +1,50 @@
+#mheader {
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #282a39;
+}
+
+#mheader-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+#mheader-container > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  margin: unset;
+  padding: unset;
+}
+
+#mheader-container > ul > a {
+  padding: 0 17px;
+  transition: color 250ms;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+#mheader-container > ul > a.selected {
+  color: #3292ff;
+  border-bottom: 2px solid #3292ff;
+}
+
+#mheader-container > ul > a:hover {
+  color: #3292ff;
+  cursor: pointer;
+}
+
+#mheader-container > ul > a > span {
+  font-size: 14px;
+  color: inherit;
+}

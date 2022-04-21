@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #232533;
+}
+
+.App {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+}
+
+* {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: unset;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3292ff;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #282a39;
+}
